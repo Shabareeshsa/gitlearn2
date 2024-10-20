@@ -6,5 +6,5 @@ jobs:
         steps:
             - run: node --version
             - run: npm --version
-            - run: install openjdk-17-jdk
+            - run: sudo apt install openjdk-17-jdk
             - run: java -version
